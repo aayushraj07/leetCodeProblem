@@ -7,12 +7,12 @@ public class AdjacentListGraph {
     
     static class Edge{
         int src;
-        int dest;
+        int nbr;
         int weight;
 
         public Edge(int s, int d, int w){
             this.src = s;
-            this.dest = d;
+            this.nbr = d;
             this.weight = w;
         }
     }
@@ -44,7 +44,7 @@ public class AdjacentListGraph {
 
         for (int i =0; i<graph[2].size(); i++){
             Edge e = graph[2].get(i);
-            System.out.println(e.dest +" ," + e.weight);
+            System.out.println(e.nbr +" ," + e.weight);
         }
     }
 }
