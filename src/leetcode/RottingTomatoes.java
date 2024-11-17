@@ -1,4 +1,4 @@
-package src.pseudoCode;
+package src.leetcode;
 
 import java.util.LinkedList;
 import java.util.Queue;
